@@ -1,0 +1,108 @@
+body {
+    overflow-x: hidden;
+    font-family: 'roboto', sans-serif;
+    color: red;
+}
+
+/*navigation*/
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2px;
+    height: 80px;
+    background-color: thistle !important;
+    
+}
+
+.navbar-brand img {
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav li {
+    padding-right: 5px;
+    margin-right: 20px;
+}    
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: 15px; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: fuchsia;
+}
+
+/*Landing Page*/
+.home-inner {
+    height: 400px;
+    background: url("../images/gym.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+}
+
+.caption h1 {
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 0.8px black;
+    padding-bottom: 20px;
+}
+
+.caption p {
+    font-size: 30px;
+    text-shadow: 10px, 1px, 0.5px, blue;
+    padding-bottom: 12px;
+
+}
+
+.btn-lg {
+    border-width: large;
+    color: orange;
+    border-color: yellow;
+    background-color: pink;
+    border-radius: 0;
+}
+
+footer {
+    background-color: thistle;
+    background-size: cover;
+    height: 80px;
+}
+
+footer img {
+    height: 100px;
+}
+
+footer .row {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
