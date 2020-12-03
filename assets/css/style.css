@@ -1,114 +1,111 @@
 body {
-    overflow-x: hidden;
-    font-family: 'roboto', sans-serif;
-    color: black;
+  overflow-x: hidden;
+  font-family: "roboto", sans-serif;
+  color: #000000;
 }
 
 /*navigation*/
 
 .navbar {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 2px;
-    height: 140px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 2px;
+  height: 140px;
+  z-index: 9999;
 }
 
-.navbar-brand img  {
-    height: 106px;
-    margin-left: 20px;
-    width: 146px;
-}
-
-.navbar-toggler {
-    
+.navbar-brand img {
+  height: 106px;
+  margin-left: 20px;
+  width: 146px;
 }
 
 .navbar-nav li {
-    padding-right: 5px;
-    margin-right: 20px;
-}    
-
+  padding-right: 2px;
+  margin-right: 20px;
+}
 
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
-    padding-top: 15px; 
+  color: rgb(220, 4, 248);
+  padding-top: 15px;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: red;
-    text-decoration: underline;
-    text-decoration-color: fuchsia;
-
+  color: #ff0000;
+  text-decoration: underline;
+  text-decoration-color: fuchsia;
 }
 
 /*Landing Page*/
 .home-inner {
-    height: 800px;
-    background: url("../images/gym-main.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 100%;
+  height: 800px;
+  background: url("../images/gym-main.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .caption {
-    width: 100%;
-    max-width: 100%;
-    position: absolute;
-    top: 38%;
-    z-index: 1;
-    color: white;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: rgb(255, 249, 249);
 }
 
 .caption h1 {
-    font-size: 60px;
-    font-weight: 700;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px 0.8px black;
-    padding-bottom: 20px;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0.8px black;
+  padding-bottom: 20px;
 }
 
 .caption p {
-    font-size: 30px;
-    text-shadow: 10px, 1px, 0.5px, blue;
-    padding-bottom: 12px;
-
+  font-size: 30px;
+  text-shadow: 1px 1px 0.8px black;
+  padding-bottom: 12px;
+  color: rgb(255, 85, 184);
 }
 
 .btn-lg {
-    border-width: medium;
-    color: fuchsia;
-    border-color:red;
-    background-color:white;
-    border-radius: 50%;
+  border-width: medium;
+  color: pink;
+  border-color: fuchsia;
+  background-color: rgb(153, 0, 255);
+  border-radius: 50%;
 }
 footer {
   width: 100%;
-    height: 205px;
-    bottom 0;
+  height: 203px;
+  bottom: 0;
 }
-
 
 footer .row {
-    text-align: center;
-    color: pink;
-    text-shadow: 0.5px 0 0 red;
+  text-align: center;
+  color: rgb(220, 4, 248);
+  text-shadow: 0.7px 0 0 black;
 }
 
-.new-thing{
-    text-align: center;
-    margin: auto;
+.new-thing {
+  text-align: center;
+  margin: auto;
+}
 
-
+.lead {
+  color: white;
 }
 
 .caption-private {
-    width: 100%;
-    max-width: 100%;
-    top: 38%;
-    z-index: 1;
-    color: black;
+  width: 100%;
+  max-width: 100%;
+  top: 38%;
+  z-index: 1;
+  color: black;
+  padding-left: 5px;
 }
 
 .btn {
@@ -117,141 +114,193 @@ footer .row {
 }
 
 .box {
-    border-style: solid;
-    border-color: black;
-    
+  border-style: 1px solid pink;
+  border-color: black;
 }
 
 .box-2 {
-    height: 500px;
-    background: url("../images/gym.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 100%;
-
+  height: 480px;
+  background: url("../images/groupsession.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .box-3 {
-    height: 500px;
-    background: url("../images/gym.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 100%;
-}
-
-.contact-info {
-    border-style: dotted;
-    border-color: black;
+  height: 480px;
+  background: url("../images/personal.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .join-us {
-    text-align: center;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+
+.blockquote {
+  color: black;
+  padding: 5px;
+  margin-left: 1px;
+}
+
+.clients {
+  color: black;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-bottom: 20px;
 }
 
 .clients img {
-    border-radius: 50%;
-    width: 100%;
-    padding: 20px;
-   
+  border-radius: 50%;
+  width: 100%;
+  padding: 20px;
 }
 
 .facilities img {
-    height: 350px;
-    width: 100%;
-    margin-left: 10px;
-
+  height: 350px;
+  width: 100%;
+  margin-left: 10px;
 }
 
 .facilities {
-    border-style: none;
-    padding: 10px;
-    
+  border-style: none;
+  padding: 20px;
+  padding-top: 10px;
 }
 
 .heading-new {
-    text-transform: uppercase;
-    text-align: center;
-    text-decoration: underline;
-
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: underline;
+  color: black;
 }
 
 .photo1 {
-    height: 500px;
-    background: url("../images/gym.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 100%;
-    
+  height: 500px;
+  background: url("../images/gym.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 .new-text {
-    font-size: 13px;
-    margin-top: 1.5px;
+  font-size: 13px;
+  margin-top: 1.5px;
 }
 
 .jumbotron-fluid {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 0.8px black;
+
 }
 .jumbotron {
-    height: 500px;
-    background: url("../images/gym.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 100%;
+  height: 700px;
+  background: url("../images/workout.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
-.display-4 {
-    color: white;
+.joinus {
+  color: white;
+}
+
+.joinus3 {
+  color: pink;
+  font-size: 20px;
 }
 
 .heading-new {
   margin: auto;
-  color: pink;
-
+  color: black;
 }
 
-
-
 .jumbotron-2 {
-    height: 800px;
-    background: url("../images/gym-2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    width: 100%;
+  height: 800px;
+  background: url("../images/workout-3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 .heading-facilities {
-    color: pink;
-    margin: auto;
-    text-align: center;
-
+  color: black;
+  margin: auto;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  padding-top: 10px;
 }
 
+.newy {
+  color: red;
+}
 
+.row-info {
+  color: black;
+  padding-left: 10px;
+}
 
+.newrow {
+  background-color: rgb(255, 0, 149);
+  color: black;
+  opacity: 0.9;
+}
 
+.border {
+  border: 1px solid white;
+}
 
+.row-3 {
+  color: black;
+  padding-top: 10px;
+  padding-left: 10px;
+}
 
+.enquiry-heading {
+  padding: 10px;
+  margin-bottom: 5px;
+  color: white;
+}
 
+.enquiry-form {
+  padding: 10px;
+  color: white;
+}
 
+.enquiry-image {
+  padding-left: 10px;
+  margin-top: 5px;
+  height: 100px;
+}
+.enquiry-hero {
+  height: 800px;
+  background: url("../images/enquiry-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* media queries */
+@media (max-width: 767px) {
+  .clients img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  iframe {
+    max-width: 90%;
+    display: block;
+  }
+}
