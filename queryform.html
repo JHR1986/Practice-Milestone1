@@ -21,8 +21,9 @@
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   </head>
 
-  <body class="enquiry-hero">
-  <img class="enquiry-image" src="assets/images/logo.png" alt="Logo">
+  <!--Start of Enquiry Form-->
+  <body class="enquiry-heroimage" role="img" aria-label="man weightlifting">
+  <img class="enquiry-image" src="assets/images/logo.png" alt="Logo for Roche Fitness">
   <h2 class="enquiry-heading"> Enquiry Form</h2>
 <form class="enquiry-form">
   <div class="form-row">
@@ -34,9 +35,8 @@
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Email:</label>
-      <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
     </div>
-  </div>
   </div>
   <div class="form-row">
   <div class="form-group col-md-6">
@@ -52,8 +52,23 @@
       </label>
     </div>
   </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
+ <button type="submit" class="btn btn-primary" onclick="myFunction()" id="submitform">Submit</button>
+<div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      ...
+    </div>
+  </div>
+</div>
 </form>
+<!--End of Enquiry Form-->
+
+<script>
+function myFunction() {
+  document.getElementById("submitform").innerHTML = "Form Submitted";
+}
+</script>
+
 <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

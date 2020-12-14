@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* General Body*/
 body {
   overflow-x: hidden;
   font-family: "roboto", sans-serif;
   color: #000000;
 }
-
-/*navigation*/
-
+/*Navigation - all pages*/
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -32,22 +33,23 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #ff0000;
+  color: #ff006C;
   text-decoration: underline;
   text-decoration-color: fuchsia;
 }
+/*End of Navigation - all pages*/
 
-/*Landing Page*/
-.home-inner {
+/*Hero Image & Heading Text - index.html*/
+.hero-image {
   height: 800px;
-  background: url("../images/gym-main.jpg");
+  background: url("../images/woman-weightlifting.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
 }
 
-.caption {
+.hero-text {
   width: 100%;
   max-width: 100%;
   position: absolute;
@@ -56,7 +58,7 @@ body {
   color: rgb(255, 249, 249);
 }
 
-.caption h1 {
+.hero-text h1 {
   font-size: 60px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -64,20 +66,25 @@ body {
   padding-bottom: 20px;
 }
 
-.caption p {
+.hero-text p {
   font-size: 30px;
   text-shadow: 1px 1px 0.8px black;
   padding-bottom: 12px;
   color: rgb(255, 85, 184);
 }
+/*End of Hero Image & Heading Text - index.html*/
 
+/*Button for Joining - index.html & joinus.html*/
 .btn-lg {
   border-width: medium;
-  color: pink;
+  color: white;
   border-color: fuchsia;
   background-color: rgb(153, 0, 255);
   border-radius: 50%;
 }
+/*End of Button for Joining - index.html & joinus.html*/
+
+/*Footer Section - all pages*/
 footer {
   width: 100%;
   height: 203px;
@@ -90,64 +97,39 @@ footer .row {
   text-shadow: 0.7px 0 0 black;
 }
 
-.new-thing {
-  text-align: center;
-  margin: auto;
+.footer-text {
+  font-size: 13px;
+  margin-top: 1.5px;
+}
+/*End of Footer Section - all pages*/
+
+/*Start of Jumbotron Section - about.html*/
+.jumbotron {
+  height: 700px;
+  background: url("../images/woman-legpress.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
-.lead {
+.jumbotron-fluid {
+  text-align: center;
   color: white;
+  text-shadow: 1px 1px 0.8px black;
+
 }
 
-.caption-private {
-  width: 100%;
-  max-width: 100%;
-  top: 38%;
-  z-index: 1;
-  color: black;
-  padding-left: 5px;
+.jumbotron-about {
+  color: rgb(255, 85, 184);
+    text-align: center;
+  text-justify: inter-word;
+  font-size: 17px;
+  font-weight: 500;
 }
+/*End of Jumbotron Section - about.html*/
 
-.btn {
-  margin: auto;
-  text-align: center;
-}
-
-.box {
-  border-style: 1px solid pink;
-  border-color: black;
-}
-
-.box-2 {
-  height: 480px;
-  background: url("../images/groupsession.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-.box-3 {
-  height: 480px;
-  background: url("../images/personal.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-.join-us {
-  text-align: center;
-  padding-top: 10px;
-  padding-right: 5px;
-}
-
-.blockquote {
-  color: black;
-  padding: 5px;
-  margin-left: 1px;
-}
-
+/*Start of Testimonial Section - about.html*/
 .clients {
   color: black;
   margin-top: 1px;
@@ -161,76 +143,22 @@ footer .row {
   padding: 20px;
 }
 
-.facilities img {
-  height: 350px;
-  width: 100%;
-  margin-left: 10px;
-}
-
-.facilities {
-  border-style: none;
-  padding: 20px;
-  padding-top: 10px;
-}
-
-.heading-new {
+.heading-testimonial {
   text-transform: uppercase;
   text-align: center;
   text-decoration: underline;
+  color: rgb(220, 4, 248);
+  text-shadow: 0.7px 0 0 black;
+}
+
+.blockquote-testimonial {
   color: black;
+  padding: 5px;
+  margin-left: 1px;
 }
+/*End of Testimonial Section - about.html*/
 
-.photo1 {
-  height: 500px;
-  background: url("../images/gym.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-.new-text {
-  font-size: 13px;
-  margin-top: 1.5px;
-}
-
-.jumbotron-fluid {
-  text-align: center;
-  color: white;
-  text-shadow: 1px 1px 0.8px black;
-
-}
-.jumbotron {
-  height: 700px;
-  background: url("../images/workout.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
-.joinus {
-  color: white;
-}
-
-.joinus3 {
-  color: pink;
-  font-size: 20px;
-}
-
-.heading-new {
-  margin: auto;
-  color: black;
-}
-
-.jumbotron-2 {
-  height: 800px;
-  background: url("../images/workout-3.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
-
+/*Start of Facilities Section - facilities.html*/
 .heading-facilities {
   color: black;
   margin: auto;
@@ -240,29 +168,134 @@ footer .row {
   padding-top: 10px;
 }
 
-.newy {
-  color: red;
+.facilities {
+  border-style: none;
+  padding: 20px;
+  padding-top: 10px;
 }
 
-.row-info {
-  color: black;
-  padding-left: 10px;
-}
-
-.newrow {
-  background-color: rgb(255, 0, 149);
-  color: black;
-  opacity: 0.9;
-}
-
-.border {
-  border: 1px solid white;
+.facilities img {
+  height: 350px;
+  width: 100%;
+  margin-left: 10px;
+  padding-right: 5%;
 }
 
 .row-3 {
   color: black;
   padding-top: 10px;
   padding-left: 10px;
+}
+/*End of Facilities Section - facilities.html*/
+
+/*Start of Classes Section - classes.html*/
+.classes-box1 {
+  border-style: solid;
+  border-color: black;
+}
+
+.classes-caption {
+  width: 100%;
+  max-width: 100%;
+  top: 38%;
+  z-index: 1;
+  color: black;
+  padding-left: 5px;
+}
+
+.personal-training1 {
+  color: black;
+
+}
+.personal-training2 {
+  color: black;
+  text-align: justify;
+  padding-right: 10px;
+  
+}
+
+.classes-box2 {
+  height: 480px;
+  background: url("../images/groupsession.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.classes-box3 {
+  height: 480px;
+  background: url("../images/personalsession.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+/*End of Classes Section - classes.html*/
+
+/*Start of Jumbotron Section - joinus.html*/
+.jumbotron-2 {
+  height: 800px;
+  background: url("../images/man-resistance.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.joinus-text {
+  color: white;
+}
+/*End of Jumbotron Section - joinus.html*/
+
+/*Start of Membership Section - joinus.html*/
+.membership-row {
+  background-color: rgb(255, 0, 149);
+  color: black;
+  opacity: 0.9;
+}
+
+.membership-border {
+  border: 1px solid white;
+}
+/*End of Membership Section - joinus.html*/
+
+/*Start of Buttons Section - joinus.html*/
+.joinus-buttons {
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 5px;
+}
+/*End of Buttons Section - joinus.html*/
+
+/*Start of Page - gyminfo.html*/
+.row-gyminfo {
+  color: black;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.photo-gyminfo img {
+    max-width: 95%;
+    max-height: 380px;
+    border: 1px solid black;
+}
+/*End of Page - gyminfo.html*/
+
+/*Start of Enquiry Page - gyminfo.html*/
+.enquiry-heroimage {
+  height: 800px;
+  background: url("../images/enquiry-image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.enquiry-image {
+  padding-left: 10px;
+  margin-top: 5px;
+  height: 100px;
 }
 
 .enquiry-heading {
@@ -276,31 +309,25 @@ footer .row {
   color: white;
 }
 
-.enquiry-image {
-  padding-left: 10px;
-  margin-top: 5px;
-  height: 100px;
+.btn {
+  margin: auto;
+  text-align: center;
 }
-.enquiry-hero {
-  height: 800px;
-  background: url("../images/enquiry-image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-}
+/*End of Enquiry Page - gyminfo.html*/
 
-/* media queries */
+/* Start of Media Queries */
 @media (max-width: 767px) {
   .clients img {
     max-width: 50%;
     display: block;
     margin: 0 auto;
   }
+
 }
 @media (max-width: 768px) {
   iframe {
-    max-width: 90%;
+    max-width: 95%;
     display: block;
   }
 }
+/*End of Media Queries*/
