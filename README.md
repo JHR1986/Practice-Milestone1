@@ -47,7 +47,7 @@ In respect of the construction of the website, it has been designed to be fully 
 - The imagery within the website is important. The large, background hero image on the Home Page of the woman weightlifting is designed to be striking and catch the user's attention. I used several large images of people working out to establish the fitness aspect of the gym. There are three hero images throughout the site. 
 
 ### Wireframes
-- All my wireframes are saved to PDF and can be found [here](assets/images/logo.png). The wireframes stayed generally consistent with the finished design, however I retained the NavBar list for iPad and the membership options are now listed on one line.  
+- All my wireframes are saved to PDF and can be found [here](assets/images/gymschedule.pdf). The wireframes stayed generally consistent with the finished design, however I retained the NavBar list for iPad and the membership options are now listed on one line.  
 
 ## Features
 - The website is responsive on all device sizes (and has been tested through Google Dev Tools on iPhone6, iPhoneX, iPad and Desktop).
