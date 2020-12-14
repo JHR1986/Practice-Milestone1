@@ -36,7 +36,8 @@ In respect of the construction of the website, it has been designed to be fully 
   These colours were used to match the logo that I created for the gym. When selecting the images and background images, I selected dark tones in order that the white and pink text would be easily visible in front of them, and so that they would match the design of the Navbar and Footer. 
 
 - The colours that I used for the website are detailed in the colour chart below which I prepared on coolors.co;
-![Colour Palette](../assets/images/colourmontage.png)
+- ![Colour Palette](https://user-images.githubusercontent.com/71781554/102114875-a5730e80-3e32-11eb-93e8-ba5fba810ff3.png)
+)
 
 
 ### Typography
@@ -56,7 +57,7 @@ In respect of the construction of the website, it has been designed to be fully 
 
 ## Languages Used
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- ![HTML5](https: 
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ## Frameworks, Libraries & Programs Used
